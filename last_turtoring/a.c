@@ -41,7 +41,7 @@ void insert_to_list(struct Word_Counter** head,char* item)//ordered linked list
         if(strcmp((*head)->item , item) > 0)
         {
             struct Word_Counter* cup = *head;
-            *head = newCounter(item);
+            *head = ____;
             (*head)->next = cup;
             return;
         }
@@ -54,7 +54,7 @@ void insert_to_list(struct Word_Counter** head,char* item)//ordered linked list
         {
             ____
         }
-        tmp->next = newCounter(item);
+        tmp->next = ____;
     }
 }
 
